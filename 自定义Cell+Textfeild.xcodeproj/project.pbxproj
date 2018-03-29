@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA332E131E21D1DC00A4655A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA332E121E21D1DC00A4655A /* main.m */; };
+		CA332E161E21D1DC00A4655A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA332E151E21D1DC00A4655A /* AppDelegate.m */; };
+		CA332E191E21D1DC00A4655A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA332E181E21D1DC00A4655A /* ViewController.m */; };
+		CA332E1C1E21D1DC00A4655A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA332E1A1E21D1DC00A4655A /* Main.storyboard */; };
+		CA332E1E1E21D1DC00A4655A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA332E1D1E21D1DC00A4655A /* Assets.xcassets */; };
+		CA332E211E21D1DC00A4655A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA332E1F1E21D1DC00A4655A /* LaunchScreen.storyboard */; };
+		CA332E2C1E21D1DC00A4655A /* ___Cell_TextfeildTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA332E2B1E21D1DC00A4655A /* ___Cell_TextfeildTests.m */; };
+		CA332E371E21D1DC00A4655A /* ___Cell_TextfeildUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA332E361E21D1DC00A4655A /* ___Cell_TextfeildUITests.m */; };
+		CA332E461E21D21000A4655A /* NLCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CA332E451E21D21000A4655A /* NLCell.m */; };
+		CA332E491E21D2BC00A4655A /* UITextField+Customer_IndexPath.m in Sources */ = {isa = PBXBuildFile; fileRef = CA332E481E21D2BC00A4655A /* UITextField+Customer_IndexPath.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA332E281E21D1DC00A4655A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA332E061E21D1DC00A4655A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA332E0D1E21D1DC00A4655A;
+			remoteInfo = "自定义Cell+Textfeild";
+		};
+		CA332E331E21D1DC00A4655A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA332E061E21D1DC00A4655A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA332E0D1E21D1DC00A4655A;
+			remoteInfo = "自定义Cell+Textfeild";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA332E0E1E21D1DC00A4655A /* 自定义Cell+Textfeild.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义Cell+Textfeild.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA332E121E21D1DC00A4655A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA332E141E21D1DC00A4655A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA332E151E21D1DC00A4655A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA332E171E21D1DC00A4655A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA332E181E21D1DC00A4655A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA332E1B1E21D1DC00A4655A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA332E1D1E21D1DC00A4655A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA332E201E21D1DC00A4655A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA332E221E21D1DC00A4655A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA332E271E21D1DC00A4655A /* 自定义Cell+TextfeildTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义Cell+TextfeildTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA332E2B1E21D1DC00A4655A /* ___Cell_TextfeildTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Cell_TextfeildTests.m"; sourceTree = "<group>"; };
+		CA332E2D1E21D1DC00A4655A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA332E321E21D1DC00A4655A /* 自定义Cell+TextfeildUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义Cell+TextfeildUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA332E361E21D1DC00A4655A /* ___Cell_TextfeildUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "___Cell_TextfeildUITests.m"; sourceTree = "<group>"; };
+		CA332E381E21D1DC00A4655A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA332E441E21D21000A4655A /* NLCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLCell.h; sourceTree = "<group>"; };
+		CA332E451E21D21000A4655A /* NLCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLCell.m; sourceTree = "<group>"; };
+		CA332E471E21D2BC00A4655A /* UITextField+Customer_IndexPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Customer_IndexPath.h"; sourceTree = "<group>"; };
+		CA332E481E21D2BC00A4655A /* UITextField+Customer_IndexPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Customer_IndexPath.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA332E0B1E21D1DC00A4655A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA332E241E21D1DC00A4655A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA332E2F1E21D1DC00A4655A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA332E051E21D1DC00A4655A = {
+			isa = PBXGroup;
+			children = (
+				CA332E101E21D1DC00A4655A /* 自定义Cell+Textfeild */,
+				CA332E2A1E21D1DC00A4655A /* 自定义Cell+TextfeildTests */,
+				CA332E351E21D1DC00A4655A /* 自定义Cell+TextfeildUITests */,
+				CA332E0F1E21D1DC00A4655A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA332E0F1E21D1DC00A4655A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA332E0E1E21D1DC00A4655A /* 自定义Cell+Textfeild.app */,
+				CA332E271E21D1DC00A4655A /* 自定义Cell+TextfeildTests.xctest */,
+				CA332E321E21D1DC00A4655A /* 自定义Cell+TextfeildUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA332E101E21D1DC00A4655A /* 自定义Cell+Textfeild */ = {
+			isa = PBXGroup;
+			children = (
+				CA332E141E21D1DC00A4655A /* AppDelegate.h */,
+				CA332E151E21D1DC00A4655A /* AppDelegate.m */,
+				CA332E171E21D1DC00A4655A /* ViewController.h */,
+				CA332E181E21D1DC00A4655A /* ViewController.m */,
+				CA332E441E21D21000A4655A /* NLCell.h */,
+				CA332E451E21D21000A4655A /* NLCell.m */,
+				CA332E471E21D2BC00A4655A /* UITextField+Customer_IndexPath.h */,
+				CA332E481E21D2BC00A4655A /* UITextField+Customer_IndexPath.m */,
+				CA332E1A1E21D1DC00A4655A /* Main.storyboard */,
+				CA332E1D1E21D1DC00A4655A /* Assets.xcassets */,
+				CA332E1F1E21D1DC00A4655A /* LaunchScreen.storyboard */,
+				CA332E221E21D1DC00A4655A /* Info.plist */,
+				CA332E111E21D1DC00A4655A /* Supporting Files */,
+			);
+			path = "自定义Cell+Textfeild";
+			sourceTree = "<group>";
+		};
+		CA332E111E21D1DC00A4655A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA332E121E21D1DC00A4655A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA332E2A1E21D1DC00A4655A /* 自定义Cell+TextfeildTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA332E2B1E21D1DC00A4655A /* ___Cell_TextfeildTests.m */,
+				CA332E2D1E21D1DC00A4655A /* Info.plist */,
+			);
+			path = "自定义Cell+TextfeildTests";
+			sourceTree = "<group>";
+		};
+		CA332E351E21D1DC00A4655A /* 自定义Cell+TextfeildUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA332E361E21D1DC00A4655A /* ___Cell_TextfeildUITests.m */,
+				CA332E381E21D1DC00A4655A /* Info.plist */,
+			);
+			path = "自定义Cell+TextfeildUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA332E0D1E21D1DC00A4655A /* 自定义Cell+Textfeild */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA332E3B1E21D1DC00A4655A /* Build configuration list for PBXNativeTarget "自定义Cell+Textfeild" */;
+			buildPhases = (
+				CA332E0A1E21D1DC00A4655A /* Sources */,
+				CA332E0B1E21D1DC00A4655A /* Frameworks */,
+				CA332E0C1E21D1DC00A4655A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义Cell+Textfeild";
+			productName = "自定义Cell+Textfeild";
+			productReference = CA332E0E1E21D1DC00A4655A /* 自定义Cell+Textfeild.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA332E261E21D1DC00A4655A /* 自定义Cell+TextfeildTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA332E3E1E21D1DC00A4655A /* Build configuration list for PBXNativeTarget "自定义Cell+TextfeildTests" */;
+			buildPhases = (
+				CA332E231E21D1DC00A4655A /* Sources */,
+				CA332E241E21D1DC00A4655A /* Frameworks */,
+				CA332E251E21D1DC00A4655A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA332E291E21D1DC00A4655A /* PBXTargetDependency */,
+			);
+			name = "自定义Cell+TextfeildTests";
+			productName = "自定义Cell+TextfeildTests";
+			productReference = CA332E271E21D1DC00A4655A /* 自定义Cell+TextfeildTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA332E311E21D1DC00A4655A /* 自定义Cell+TextfeildUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA332E411E21D1DC00A4655A /* Build configuration list for PBXNativeTarget "自定义Cell+TextfeildUITests" */;
+			buildPhases = (
+				CA332E2E1E21D1DC00A4655A /* Sources */,
+				CA332E2F1E21D1DC00A4655A /* Frameworks */,
+				CA332E301E21D1DC00A4655A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA332E341E21D1DC00A4655A /* PBXTargetDependency */,
+			);
+			name = "自定义Cell+TextfeildUITests";
+			productName = "自定义Cell+TextfeildUITests";
+			productReference = CA332E321E21D1DC00A4655A /* 自定义Cell+TextfeildUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA332E061E21D1DC00A4655A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "张英建";
+				TargetAttributes = {
+					CA332E0D1E21D1DC00A4655A = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = E7FDY49242;
+						ProvisioningStyle = Automatic;
+					};
+					CA332E261E21D1DC00A4655A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA332E0D1E21D1DC00A4655A;
+					};
+					CA332E311E21D1DC00A4655A = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CA332E0D1E21D1DC00A4655A;
+					};
+				};
+			};
+			buildConfigurationList = CA332E091E21D1DC00A4655A /* Build configuration list for PBXProject "自定义Cell+Textfeild" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA332E051E21D1DC00A4655A;
+			productRefGroup = CA332E0F1E21D1DC00A4655A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA332E0D1E21D1DC00A4655A /* 自定义Cell+Textfeild */,
+				CA332E261E21D1DC00A4655A /* 自定义Cell+TextfeildTests */,
+				CA332E311E21D1DC00A4655A /* 自定义Cell+TextfeildUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA332E0C1E21D1DC00A4655A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA332E211E21D1DC00A4655A /* LaunchScreen.storyboard in Resources */,
+				CA332E1E1E21D1DC00A4655A /* Assets.xcassets in Resources */,
+				CA332E1C1E21D1DC00A4655A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA332E251E21D1DC00A4655A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA332E301E21D1DC00A4655A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA332E0A1E21D1DC00A4655A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA332E191E21D1DC00A4655A /* ViewController.m in Sources */,
+				CA332E491E21D2BC00A4655A /* UITextField+Customer_IndexPath.m in Sources */,
+				CA332E461E21D21000A4655A /* NLCell.m in Sources */,
+				CA332E161E21D1DC00A4655A /* AppDelegate.m in Sources */,
+				CA332E131E21D1DC00A4655A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA332E231E21D1DC00A4655A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA332E2C1E21D1DC00A4655A /* ___Cell_TextfeildTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA332E2E1E21D1DC00A4655A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA332E371E21D1DC00A4655A /* ___Cell_TextfeildUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA332E291E21D1DC00A4655A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA332E0D1E21D1DC00A4655A /* 自定义Cell+Textfeild */;
+			targetProxy = CA332E281E21D1DC00A4655A /* PBXContainerItemProxy */;
+		};
+		CA332E341E21D1DC00A4655A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA332E0D1E21D1DC00A4655A /* 自定义Cell+Textfeild */;
+			targetProxy = CA332E331E21D1DC00A4655A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA332E1A1E21D1DC00A4655A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA332E1B1E21D1DC00A4655A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA332E1F1E21D1DC00A4655A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA332E201E21D1DC00A4655A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA332E391E21D1DC00A4655A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA332E3A1E21D1DC00A4655A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA332E3C1E21D1DC00A4655A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E7FDY49242;
+				INFOPLIST_FILE = "自定义Cell+Textfeild/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yj-zhang.---Cell-Textfeild";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA332E3D1E21D1DC00A4655A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E7FDY49242;
+				INFOPLIST_FILE = "自定义Cell+Textfeild/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yj-zhang.---Cell-Textfeild";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CA332E3F1E21D1DC00A4655A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "自定义Cell+TextfeildTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yj-zhang.---Cell-TextfeildTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义Cell+Textfeild.app/自定义Cell+Textfeild";
+			};
+			name = Debug;
+		};
+		CA332E401E21D1DC00A4655A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "自定义Cell+TextfeildTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yj-zhang.---Cell-TextfeildTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义Cell+Textfeild.app/自定义Cell+Textfeild";
+			};
+			name = Release;
+		};
+		CA332E421E21D1DC00A4655A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "自定义Cell+TextfeildUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yj-zhang.---Cell-TextfeildUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自定义Cell+Textfeild";
+			};
+			name = Debug;
+		};
+		CA332E431E21D1DC00A4655A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "自定义Cell+TextfeildUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "yj-zhang.---Cell-TextfeildUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自定义Cell+Textfeild";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA332E091E21D1DC00A4655A /* Build configuration list for PBXProject "自定义Cell+Textfeild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA332E391E21D1DC00A4655A /* Debug */,
+				CA332E3A1E21D1DC00A4655A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA332E3B1E21D1DC00A4655A /* Build configuration list for PBXNativeTarget "自定义Cell+Textfeild" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA332E3C1E21D1DC00A4655A /* Debug */,
+				CA332E3D1E21D1DC00A4655A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA332E3E1E21D1DC00A4655A /* Build configuration list for PBXNativeTarget "自定义Cell+TextfeildTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA332E3F1E21D1DC00A4655A /* Debug */,
+				CA332E401E21D1DC00A4655A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA332E411E21D1DC00A4655A /* Build configuration list for PBXNativeTarget "自定义Cell+TextfeildUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA332E421E21D1DC00A4655A /* Debug */,
+				CA332E431E21D1DC00A4655A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA332E061E21D1DC00A4655A /* Project object */;
+}
